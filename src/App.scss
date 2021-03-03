@@ -1,0 +1,128 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+}
+
+  .navbar-color {
+  background-color: #0f2a4ede
+
+}
+
+.app-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.app-image {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 0px 20px;
+}
+
+.app-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  position: relative;
+}
+
+.summary {
+  text-indent: 1em;
+  margin-bottom: 10px;
+  color: #7c795d; font-family: 'Source Sans Pro', sans-serif; line-height: 20px; 
+}
+
+.introduction {
+  margin:auto;
+  width: 60%;
+}
+
+.title {
+  display: inline-block;
+  margin: 50px 0px;
+  text-align: center;  
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 550px;
+  height: 290px;
+  border-radius: 10px;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #308353ef;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  text-indent: 1em;
+  margin-bottom: 10px;
+  color: #7c795d; font-family: 'Source Sans Pro', sans-serif; line-height: 20px; 
+  text-align: left !important;
+}
+
+.tags {
+  height: 40px;
+  margin: 0px 10px;
+}
+
+.tagline {
+  position: absolute;
+  bottom: 0px;
+}
+
+.github-logo {
+  height: 40px;
+  margin: 0px 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+
+.button {
+  margin-left: 20px;
+  color: white ;
+  text-decoration: none !important;
+  font-size: large;
+}
+
+.button:hover {
+  color: #21a136 !important;
+}
+
+.about-me {
+  margin-top: 50px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.title2 {
+  text-align: center;
+  color: #308353ef;
+  margin-bottom: 30px;
+}
+
+.tecs {
+  margin: 0px 10px;
+  color: blue
+}
