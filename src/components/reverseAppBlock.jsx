@@ -17,7 +17,7 @@ const ReverseAppBlock = (props) => {
         {textEs2}
         </div>
         <div className='tagline'>
-          {tags.map((tag)=>(<img src={tag} alt={tag} className='tags'></img>))}
+          {tags.map((tag)=>(<img src={tag} alt={tag} key={tag} className='tags'></img>))}
         </div>
         <a href={github} target="_blank" rel='noreferrer' >
           <img src={githubLogo} alt="github"  className='github-logo'/>

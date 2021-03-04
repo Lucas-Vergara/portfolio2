@@ -10,12 +10,16 @@ body {
 
 }
 
+#home {
+  background-image: url(images/office2.png);
+}
+
 .app-block {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 50px;
+  margin-top: 50px;
   background-color: whitesmoke;
   padding: 20px;
   border-radius: 20px;
@@ -125,4 +129,50 @@ body {
 .tecs {
   margin: 0px 10px;
   color: blue
+}
+
+@media only screen and (max-width: 700px) {
+  .image {
+    width: 250px;
+    height: 110px;
+    border-radius: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .tagline {
+    display: none;
+  }
+  
+  .github-logo {
+    display: none;
+  }
+
+  .button {
+    margin-left: 5px;
+    color: white ;
+    text-decoration: none !important;
+    font-size: large;
+  }
+
+  .app-image {
+    margin-left: 15px;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .app-text {
+    margin-bottom: 110px;
+  }
+
+  .app-block {
+    position: relative;
+  }
+
+  .tecs {
+    margin: 0px;
+    color: blue
+  }
 }

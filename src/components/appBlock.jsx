@@ -9,7 +9,7 @@ const AppBlock = (props) => {
   return (
     <div className='app-block'>
       <a href={url} target="_blank" rel='noreferrer' className='app-image'>
-        <img src={src} alt={name} className='image' />
+        <img src={src} alt={name} className='image' key={name + '2'}/>
       </a>
       <div className='app-text'>
         <h2 className='app-title'>{name}</h2>
@@ -20,10 +20,10 @@ const AppBlock = (props) => {
           {textEs2}
         </div>
         <div className='tagline'>
-          {tags.map((tag)=>(<img src={tag} alt={tag} className='tags'></img>))}
+          {tags.map((tag)=>(<img src={tag} alt={tag} key={tag} className='tags'></img>))}
         </div>
         <a href={github} target="_blank" rel='noreferrer' >
-          <img src={githubLogo} alt="github"  className='github-logo'/>
+          <img src={githubLogo} alt="github"  className='github-logo' key={name}/>
         </a>
       </div>
     </div>

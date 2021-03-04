@@ -2,15 +2,14 @@ import React from 'react'
 
 const AboutMe = () => {
 
-  const birthday = new Date(1990,6,5);
-  const calculateAge = (birthday) => { 
-    var ageDifMs = Date.now() - birthday.getTime();
-    var ageDate = new Date(ageDifMs); 
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
-  }
+  // const birthday = new Date(1990,6,5);
+  // const calculateAge = (birthday) => { 
+  //   var ageDifMs = Date.now() - birthday.getTime();
+  //   var ageDate = new Date(ageDifMs); 
+  //   return Math.abs(ageDate.getUTCFullYear() - 1970);
+  // }
 
-  const age = calculateAge(birthday)
-  console.log(age)
+  // const age = calculateAge(birthday)
 
   return( 
     <div className='container'>
