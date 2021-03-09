@@ -8,6 +8,10 @@ import ocean from '../images/ocean.svg'
 import nodejs from '../images/nodejs.png'
 import pug from '../images/pug.svg'
 import heroku from '../images/heroku.svg'
+import cachipun from '../images/cachipun.png'
+import sketch from '../images/sketch.png'
+import tictactoe from '../images/tictactoe.png'
+import restaurant from '../images/restaurant.png'
 
 const apps = [
   {
@@ -59,7 +63,48 @@ const apps = [
     src: memoryGame,
     tags: [react],
     github: 'https://github.com/Lucas-Vergara/memory-game'
+  }, 
+  {
+    name: 'Simple Restaurant',
+    url: 'https://lucas-vergara.github.io/restaurant/',
+    textEs1: 'Ejemplo de restaurant simple, optimizado con webpack.',
+    textEs2: '',
+    textEn: '',
+    src: restaurant,
+    tags: [],
+    github: 'https://github.com/Lucas-Vergara/restaurant'
+  },
+  {
+    name: 'Sketch',
+    url: 'https://lucas-vergara.github.io/Sketch/',
+    textEs1: 'Juego de la pizarra mágica básico, creado con simple html, javascript y css',
+    textEs2: '',
+    textEn: '',
+    src: sketch,
+    tags: [],
+    github: 'https://github.com/Lucas-Vergara/Sketch'
+  },
+  {
+    name: 'Cachipún',
+    url: 'https://lucas-vergara.github.io/cachipun/2.0/cachipun.html',
+    textEs1: 'Juego cachipún básico, creado con simple html, javascript y css',
+    textEs2: '',
+    textEn: 'web',
+    src: cachipun,
+    tags: [],
+    github: 'https://github.com/Lucas-Vergara/cachipun'
+  },
+  {
+    name: 'Tic Tac Toe',
+    url: 'https://lucas-vergara.github.io/tictactoe/',
+    textEs1: 'Juego del "gato" básico, creado con simple html, javascript y css',
+    textEs2: '',
+    textEn: '',
+    src: tictactoe,
+    tags: [],
+    github: 'https://github.com/Lucas-Vergara/tictactoe'
   }
+
 ]
 
 export default apps
