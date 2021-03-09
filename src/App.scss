@@ -2,17 +2,15 @@
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  background-image: url(images/office2.png);
 }
 
-  .navbar-color {
+.navbar-color {
   background-color: #0f2a4ede
 
 }
 
-#home {
-  background-image: url(images/office2.png);
-}
+
 
 .app-block {
   display: flex;
@@ -118,10 +116,6 @@ body {
   padding: 50px;
   background-color: white;
   border-radius: 5px;
-}
-
-.about {
-  background-image: url(images/office2.png);
 }
 
 .title2 {

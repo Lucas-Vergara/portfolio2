@@ -12,7 +12,7 @@ const AboutMe = () => {
   // const age = calculateAge(birthday)
 
   return( 
-    <div className='container about'>
+    <div className='container'>
       <div className='about-me'>
         <h1 className='title2'>Sobre Mi</h1>
         <p className='summary' sryle={{color: 'black'}}>
